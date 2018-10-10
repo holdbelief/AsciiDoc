@@ -1,0 +1,47 @@
+= 加粗
+
+*test*
+
+= 斜体
+_test_
+
+
+[source,java]
+----
+package com.acme.example; // <1>
+
+public class HelloWorld {
+
+    public static void main(String[] args) { <2>
+
+         System.out.println("Hello World!"); // <3>
+
+    }
+}
+----
+<1> Package definition
+<2> Main method with arguments
+<3> Print string to system output
+
+[source,json]
+----
+{
+    "apiVersion" : "1.0",
+    
+    "info": { <1>
+        "created" : "2018-03-23"
+        "state"   : "beta"
+     }
+}
+----
+<1> Info object
+
+[source,xml]
+----
+<section>
+  <title>Section Title</title> <!--1-->
+</section>
+----
+<1> The section title is required.
+
+
