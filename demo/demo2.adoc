@@ -35,7 +35,7 @@ get '/hi' do
 end
 ----
 
-[source,xml,options="nowrap"]
+[source,xml]
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 This is normal content.
